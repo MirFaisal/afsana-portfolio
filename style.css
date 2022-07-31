@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: url("./images/top-banner.png") no-repeat;
+  margin: 0;
+}
+.inner-container-photo img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+.inner-container-artical {
+  width: 50%;
+  font-family: sans-serif;
+  padding-left: 60px;
+  padding-top: 100px;
+}
+span {
+  color: rgb(213, 36, 36);
+}
+.container-banner{
+  display: flex;
+}
+.inner-container-banner-photo img{
+  width: 70%;
+  border-radius: 50%;
+}.inner-container-banner-photo{
+  display: flex;
+  justify-content: center;
+}
+.inner-container-banner-article{
+  padding-top: 150px;
+  padding-right: 100px;
+  font-family: sans-serif;
+  background: url("./images/dream-bg.png") no-repeat right;
+}
+.inner-container-banner-article h1{
+  color: rgb(234, 180, 81);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.inner-container-banner-article h4{
+  margin:0;
+}
+.here-button{
+  text-decoration: none;
+  background-image: linear-gradient(135deg,red,orange);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
