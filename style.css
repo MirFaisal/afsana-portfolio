@@ -9,8 +9,7 @@ body{
   margin: 0;
 }
 .inner-container-photo img {
-  width: 50%;
-  height: 50%;
+  width: 60%;
   border-radius: 50%;
 }
 .inner-container-artical {
