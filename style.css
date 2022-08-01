@@ -1,54 +1,103 @@
-body{
+body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   display: flex;
   justify-content: space-around;
   background: url("./images/top-banner.png") no-repeat;
   margin: 0;
 }
+.inner-container-photo {
+  display: flex;
+  justify-content: center;
+}
+
 .inner-container-photo img {
   width: 60%;
   border-radius: 50%;
 }
+
 .inner-container-artical {
   width: 50%;
   font-family: sans-serif;
   padding-left: 60px;
   padding-top: 100px;
 }
+.inner-container-artical p{
+  line-height: 20px;
+}
+
 span {
   color: rgb(213, 36, 36);
 }
-.container-banner{
+
+.container-banner {
   display: flex;
 }
-.inner-container-banner-photo img{
+
+.inner-container-banner-photo img {
   width: 70%;
   border-radius: 50%;
-}.inner-container-banner-photo{
+}
+
+.inner-container-banner-photo {
   display: flex;
   justify-content: center;
 }
-.inner-container-banner-article{
+
+.inner-container-banner-article {
   padding-top: 150px;
   padding-right: 100px;
   font-family: sans-serif;
   background: url("./images/dream-bg.png") no-repeat right;
 }
-.inner-container-banner-article h1{
+
+.inner-container-banner-article h1 {
   color: rgb(234, 180, 81);
   font-size: 40px;
   margin-bottom: 10px;
 }
-.inner-container-banner-article h4{
-  margin:0;
+.inner-container-banner-article p{
+  line-height: 20px;
 }
-.here-button{
+.inner-container-banner-article h4 {
+  margin: 0;
+}
+
+.here-button {
   text-decoration: none;
-  background-image: linear-gradient(135deg,red,orange);
+  background-image: linear-gradient(135deg, red, orange);
   color: white;
   padding: 10px 15px;
   border-radius: 5px;
+}
+section {
+  margin-bottom: 100px;
+}
+section > h1 {
+  font-size: 50px;
+}
+.container-experiance {
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 100px; */
+}
+.inner-container-item {
+  width: 40%;
+  border-bottom: 5px solid #000;
+  box-shadow: 3px 3px 30px rgba(128, 128, 128, 0.625);
+  font-family: sans-serif;
+  padding: 50px;
+}
+.inner-container-item h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+.inner-container-item h5 {
+  font-size: 20px;
+}
+.inner-container-item p {
+  line-height: 25px;
 }
